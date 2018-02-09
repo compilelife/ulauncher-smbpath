@@ -3,7 +3,7 @@
     "api_version": "1",
     "name": "samba path converter",
     "description": "convert between smb://xxxx/xx and \\\\xxxx\\xx",
-    "developer_name": "cy",
+    "developer_name": "compilelife",
     "icon": "images/icon.png",
     "options": {
       "query_debounce": 0.1
