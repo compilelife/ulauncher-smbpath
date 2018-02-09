@@ -24,6 +24,6 @@ The easiest way:
 
 ![windows->linux shot](images/2.png)
 
-Alt+1 or just enter to copy then converted path to clipboard.
+Alt+1 or just enter to copy the converted path to clipboard.
 
 Enjoy it.
