@@ -25,3 +25,8 @@ def convert_path(path):
         return to_linux_path(path)
     else:
         return 'not a valid samba path'
+
+
+if __name__ == '__main__':
+    print(convert_path(sys.argv[1]))
+

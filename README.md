@@ -23,7 +23,7 @@ python smbpath.py smb://127.0.0.1/compilelife
 or
 
 ```
-python smbpath.py \\127.0.0.1\compilelife
+python smbpath.py '\\127.0.0.1\compilelife'
 ```
 
 
