@@ -20,4 +20,10 @@ python smbpath.py \\127.0.0.1\compilelife
 
 The easiest way:
 
-![ulauncher screen shot](images/screenshot.png)
+![linux->windows shot](images/1.png)
+
+![windows->linux shot](images/2.png)
+
+Alt+1 or just enter to copy then converted path to clipboard.
+
+Enjoy it.
