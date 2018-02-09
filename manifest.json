@@ -1,0 +1,20 @@
+{
+    "manifest_version": "2",
+    "api_version": "1",
+    "name": "samba path converter",
+    "description": "convert between smb://xxxx/xx and \\\\xxxx\\xx",
+    "developer_name": "cy",
+    "icon": "images/icon.png",
+    "options": {
+      "query_debounce": 0.1
+    },
+    "preferences": [
+      {
+        "id": "keyword",
+        "type": "keyword",
+        "name": "samba path converter",
+        "description": "keyword to activate this plugin",
+        "default_value": "sp"
+      }
+    ]
+  }
