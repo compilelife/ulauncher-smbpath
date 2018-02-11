@@ -7,10 +7,10 @@ from ulauncher.api.shared.action.CopyToClipboardAction import CopyToClipboardAct
 import smbpath
 
 
-class DemoExtension(Extension):
+class SmbPathExtension(Extension):
 
     def __init__(self):
-        super(DemoExtension, self).__init__()
+        super(SmbPathExtension, self).__init__()
         self.subscribe(KeywordQueryEvent, KeywordQueryEventListener())
 
 
@@ -27,4 +27,4 @@ class KeywordQueryEventListener(EventListener):
                                              on_enter=CopyToClipboardAction(path))])
 
 if __name__ == '__main__':
-    DemoExtension().run()
+    SmbPathExtension().run()
