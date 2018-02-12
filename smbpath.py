@@ -1,5 +1,6 @@
 import sys
 
+
 def is_linux_path(path):
     return path.startswith('smb://')
 
@@ -29,4 +30,3 @@ def convert_path(path):
 
 if __name__ == '__main__':
     print(convert_path(sys.argv[1]))
-

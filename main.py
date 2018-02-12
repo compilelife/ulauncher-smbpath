@@ -23,8 +23,10 @@ class KeywordQueryEventListener(EventListener):
 
         path = smbpath.convert_path(event.get_argument())
         return RenderResultListAction([ExtensionResultItem(icon='images/icon.png',
-                                             name=path,
-                                             on_enter=CopyToClipboardAction(path))])
+                                                           name=path,
+                                                           description='press alt+1 to copy this string to clipboard',
+                                                           on_enter=CopyToClipboardAction(path))])
+
 
 if __name__ == '__main__':
     SmbPathExtension().run()
